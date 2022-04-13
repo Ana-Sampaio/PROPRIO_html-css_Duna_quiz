@@ -1,0 +1,109 @@
+body{
+	background-image: url("https://cdn.mos.cms.futurecdn.net/nKLsP2bXfdCaSDepXkE8BJ.jpeg");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+/*HEADER*/
+.Atreides{
+	width: 132px;
+	height: 82px;
+	border: 2px solid #e0a338;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+nav{
+	position: absolute;
+	top: 56px;
+	right: 20px;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+	color: #C2FBFC;
+} 
+nav a:hover{
+	color: #e0a338;
+	text-decoration: underline; 
+}
+/*quiz*/
+h1{ 
+	margin-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	color:#C2FBFC;
+	font-weight: bold;
+	font-style: italic;
+}
+main{
+	width: 940px;
+	margin: 50px auto;
+}
+form {
+	margin: 40px 0;
+}
+form label, legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	color: #C2FBFC;
+	padding: 5px 5px;
+}
+.padrão{
+	display: block;
+	margin: 0 0 20px;
+	padding: 5px 5px;
+	width: 50%;
+}
+.last{
+	margin-bottom: 20px
+}
+.checkbox{
+	margin-top: 5px;
+	padding: 5px 5px;
+}
+.submit{
+	width: 10%;
+	padding: 15px 0;
+	border: 2px solid #e0a338;
+	border-radius: 5px;
+	background: #C2FBFC;
+	color: #e0a338;
+	font-weight: bold;
+	font-size: 17.5px;
+	cursor: pointer;
+}
+.submit:hover{
+	background-color: #33DFFF;
+	border: 2px solid #FF8C33;
+	color: #FF8C33;
+}
+/*FOOTER*/
+footer{
+	text-align: center;
+	padding: 1em 0 0 0;
+}
+.poster{
+	width: 150px;
+	height: 200px;
+	border: 2px solid #e0a338;
+}
+.copyright{
+	color: #C2FBFC;
+	font-size: 13px;
+	margin: 10px 0 0;
+}
+/*EXTRA QUE EU NÃO LEMBRO DE TER ESCRITO*/
+@media screen and (max-width:480px){
+	.caixa, .quotes, .shai-hulud, .nomes{
+		width: auto;
+	}
+	.shai-hulud, .nome{
+		width: 100%;
+	}
